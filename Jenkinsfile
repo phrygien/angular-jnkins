@@ -22,7 +22,7 @@ pipeline {
             steps {
                 sh '''
                     sudo rm -rf /var/www/html/*
-                    sudo cp -r dist/angular-project/* /var/www/html/
+                    sudo cp -r dist/angular-project/browser/* /var/www/html/
                 '''
             }
         }
